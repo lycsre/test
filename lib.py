@@ -1,5 +1,5 @@
 def add(a:str, b:str) -> str: 
-    return str(a + b)
+    return a + b
 
 def sub(a, b) -> int:
     return a - b
