@@ -49,6 +49,4 @@ class TestLib(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    # unit
-    # test.main()
-    print(type(add(10,1)))
+    unittest.main()
