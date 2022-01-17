@@ -21,7 +21,7 @@ class TestLib(unittest.TestCase):
         result = sub(n1, n2)
 
         # testing
-        self.assertEqual(result, 5)
+        self.assertEqual(result, -5)
         self.assertIsInstance(result, int)
 
     def test_mul(self):
